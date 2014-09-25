@@ -1,0 +1,2 @@
+# exclude all out directories to avoid build junk
+/out
