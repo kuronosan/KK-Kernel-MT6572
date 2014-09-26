@@ -1,0 +1,50 @@
+
+Build Environment Requirement
+=============================================================
+* ********* Suggested OS and Tool Chain to install *********
+*
+*       OS                         : Linux distribution Ubuntu 10.04
+*       Memory Size                : 4G or above
+*       make                       : GNU Make 3.81 or 3.82
+*       perl                       : Version 5.10.X
+*       python                     : Version 2.6.X
+*       arm-linux-androideabi-gcc  : Version 4.6.X
+*       gcc                        : Version 4.4.3
+*       jdk                        : Version 1.6.X
+*       bison                      : Version 2.4.X
+*       flex                       : Version 2.5.X
+*       gperf                      : Version 3.0.X
+*       mingw                      : Installed
+*       unix2dos/tofrodos          : Installed
+* **********************************************************
+=============================================================
+
+
+Build Environment Check Result Report
+*************************************************************
+
+[OS]: Ubuntu 12.04.4 (64-bit) [WARNING]
+your ubuntu os version is higher than recommendation
+
+[Physical Memory Size] : 4047504 K-Bytes [WARNING]
+it's smaller than recommendation, may cause out-of-memory build error
+
+[make]: 3.81 (64-bit) [OK]
+[perl]: 5.14.2 (64-bit) [WARNING]
+your perl version is higher than recommendation
+
+[python]: 2.7.3 (64-bit) [WARNING]
+your python version is higher than recommendation
+
+[arm-linux-androideabi-gcc]: 4.7 (64-bit) [OK]
+[gcc]: 4.4.3 (64-bit) [OK]
+[jdk]: 1.6.0_45 (64-bit) [OK]
+[bison]: 2.5 (64-bit) [WARNING]
+your bison version is higher than recommendation
+
+[flex]: 2.5.35 (64-bit) [OK]
+[gperf]: 3.0.3 (64-bit) [OK]
+[mingw]: Installed [OK]
+[unix2dos/tofrodos]: Installed [OK]
+*************************************************************
+
